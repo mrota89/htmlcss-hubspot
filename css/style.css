@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/* classi utility */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  height: 40px;
+  line-height: 40px;
+  min-width: 100px;
+  padding: 0 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+/*/ classi utility */
+
+header {
+  width: 100%;
+  min-width: 1200px;
+}
+
+.section {
+  width: 100%;
+}
+/* sezione in alto */
+.one {
+  background-color: #f4f9fd;
+}
+
+.one ul li img {
+  width: 20px;
+  height: 15px;
+  padding-right: 5px;
+}
+
+.log-in {
+  background-color: #fff;
+  border:solid #fe775a 2px;
+  vertical-align: middle;
+}
+/* sezione in alto */
+
+.navbar ul {
+  line-height: 80px;
+  height:80px;
+}
+
+.navbar li {
+display: inline-block;
+padding: 0 20px;
+}
+
+/* logo hubspot */
+.two .logo {
+  top: 25px;
+  left: 10px;
+  position:relative;
+  display: inline-block;
+}
+/* /logo hubspot */
+
+/* sezione in basso */
+.three {
+  height: 400px;
+  background-color: #fff4ef;
+  background-image: url("../img/jumbotron.png");
+  background-size: 50%;
+  background-position: bottom -55px right;
+  background-repeat: no-repeat;
+}
+
+.three .container .jumbotron {
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.three .container .jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.three .container .jumbotron p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+
+.three .container .jumbotron p:last-child {
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+
+.get {
+  background-color: #fe775a;
+  color: #fff;
+}
+/* /sezione in basso */
