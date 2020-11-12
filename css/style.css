@@ -37,12 +37,26 @@
   display: inline-block;
   text-align: center;
 }
+
+.button-get {
+  background-color: #fe775a;
+  color: #fff;
+}
+
+.b-central {
+  background-color: #fe775a;
+  color: #fff;
+  font-size: 12px;
+  width: 150px;
+}
+
 /*/ classi utility */
 
+/* sezione in alto */
 .section {
   width: 100%;
 }
-/* sezione in alto */
+
 .one {
   background-color: #f4f9fd;
 }
@@ -53,12 +67,12 @@
   padding-right: 5px;
 }
 
-.log-in {
+.button-log-in {
   background-color: #fff;
   border:solid #fe775a 2px;
   vertical-align: middle;
 }
-/* sezione in alto */
+/* /sezione in alto */
 
 .navbar ul {
   line-height: 80px;
@@ -81,27 +95,27 @@ padding: 0 20px;
 
 /* sezione in basso */
 .three {
-  background-color: #fff4ef;
+  background-color: #fff3ee;
   background-image: url("../img/jumbotron.png");
-  background-size: 50%;
-  background-position: bottom -55px right;
+  background-size: 80%;
+  background-position: bottom -100px right;
   background-repeat: no-repeat;
 }
 
 .three .container .jumbotron {
-  width: 50%;
+  width: 40%;
   padding-top: 50px;
   padding-right: 50px;
-  height: 400px;
+  height: 500px;
 }
 
 .three .container .jumbotron h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .three .container .jumbotron p {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.5;
   margin: 20px 0px;
 }
@@ -112,16 +126,19 @@ padding: 0 20px;
   margin: 20px 0px;
 }
 
-.get {
-  background-color: #fe775a;
-  color: #fff;
+.jumbotron .button-big {
+  height: 50px;
+  line-height: 50px;
+  width: 200px;
+  font-size: 15px;
 }
 /* /sezione in basso */
 
 .intersection-lightblue {
   height: 100px;
   background-color: #afebe4;
-  border: solid #33475b 4px;
+  border-top: solid #33475b 4px;
+  border-bottom: solid #33475b 4px;
 }
 
 /* slogan sotto testata */
@@ -144,4 +161,140 @@ padding: 0 20px;
   line-height: 1.5;
   margin: 30px 0px;
 }
-/* slogan sotto sotto testata */
+/* /slogan sotto sotto testata */
+
+/* corpo centrale */
+main {
+  background-color: #f4f9fd;
+}
+/* contenitore centrale freehubspot */
+.central-content {
+  box-shadow: 1px 2px 2px 2px;
+  margin-bottom: 30px;
+}
+
+.central-content .book-image {
+  background-color: #fff;
+  padding-top: 70px;
+  padding-left: 150px;
+  width: 25%;
+  height: 300px;
+}
+
+.central-content .book-image .libretto {
+  width: 100px;
+  height: 120px;
+}
+
+.central-content .free-hubspot {
+  background-color: #fff;
+  padding: 80px 350px 20px 80px;
+  width: 75%
+}
+
+.central-content .free-hubspot h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.central-content .free-hubspot p {
+  text-align: left;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.free-hubspot .popolar {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.popolar::after {
+  content:"";
+  display: inline-block;
+  width: 60%;
+  border-bottom: 1px solid black;
+  margin: 5px 20px 5px 30px;
+}
+
+.free-hubspot ul {
+  line-height: 50px;
+  height: 50px;
+}
+
+.free-hubspot  li {
+display: inline-block;
+padding-right: 10px;
+}
+
+.free-hubspot  li img {
+  padding-right: 10px;
+  height: 12px;
+}
+/* /contenitore centrale freehubspot */
+
+/* contenitore centrale tre colonne */
+.central-content .column {
+  background-color: #fff;
+  text-align: center;
+}
+
+.uno {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+}
+
+.due {
+  width: calc(33.33% - 40px);
+  margin: 0 20px;
+}
+
+.tre {
+  width: calc(33.33% - 20px);
+  margin-left: 20px;
+}
+
+.column {
+  padding: 20px;
+}
+.column img {
+  padding: 20px 0;
+  width: 100px;
+}
+
+.column.due > img {
+  width: 120px;
+}
+
+.column.tre > img {
+  width: 90px;
+}
+
+.column h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.column p {
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.column li {
+list-style: none;
+text-align: left;
+}
+
+.column li img {
+  width: 10px;
+}
+/* /contenitore centrale tre colonne */
+
+/* /corpo centrale */
