@@ -51,9 +51,27 @@
   width: 120px;
 }
 
+.fa-check-circle {
+ color: #fe775a;
+ padding-right: 7px;
+}
+
 .box-shadow {
   box-shadow: 1px 1px 1px lightgrey;
   border-radius: 3px;
+}
+
+.box-brd-l-r {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.box-brd-r {
+  border-right: 2px solid white;
+}
+
+.box-brd-top {
+  border-top: 2px solid white;
 }
 /*/ classi utility */
 
@@ -83,7 +101,7 @@
   height: 80px;
 }
 
-.navbar li {
+.navbar ul li {
 display: inline-block;
 padding: 0 20px;
 }
@@ -109,25 +127,25 @@ padding: 0 20px;
 }
 
 .three .container .jumbotron {
-  width: 40%;
+  width: 45%;
   padding-top: 10%;
-  padding-right: 50px;
+  padding-right: 30px;
   height: 500px;
 }
 
 .three .container .jumbotron h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 .three .container .jumbotron p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 20px 0px;
 }
 
 .three .container .jumbotron p:last-child {
-  font-size: 10px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 20px 0px;
 }
@@ -174,16 +192,16 @@ padding: 0 20px;
 }
 /* /slogan sotto sotto testata */
 
-/* corpo centrale */
-main {
+/* corpo centrale sezione top */
+main.top {
   background-color: #f4f9fd;
 }
-/* contenitore centrale freehubspot */
-.central-content {
+/* contenitore freehubspot */
+.top-content {
   padding-bottom: 30px;
 }
 
-.central-content .book-image {
+.top-content .book-image {
   background-color: #fff;
   padding-top: 30px;
   padding-left: 150px;
@@ -191,26 +209,26 @@ main {
   height: 250px;
 }
 
-.central-content .book-image .libretto {
+.top-content .book-image .libretto {
   width: 100px;
   height: 120px;
 }
 
-.central-content .free-hubspot {
+.top-content .free-hubspot {
   background-color: #fff;
   padding: 35px 350px 50px 70px;
   height: 250px;
   width: 75%
 }
 
-.central-content .free-hubspot h3 {
+.top-content .free-hubspot h3 {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.central-content .free-hubspot p {
+.top-content .free-hubspot p {
   text-align: left;
   font-size: 15px;
   padding-bottom: 20px;
@@ -235,14 +253,14 @@ main {
   height: 50px;
 }
 
-.free-hubspot  li {
+.free-hubspot ul li {
 display: inline-block;
 padding-right: 10px;
 }
-/* /contenitore centrale freehubspot */
+/* /contenitore freehubspot */
 
-/* contenitore centrale tre colonne */
-.central-content .column {
+/* contenitore tre colonne */
+.top-content .column {
   width: 33.33%;
   height: 800px;
   text-align: center;
@@ -287,7 +305,7 @@ padding-right: 10px;
   margin-top: 30px;
 }
 
-.column-content li {
+.column-content ul li {
 list-style: none;
 text-align: left;
 padding-left: 10%;
@@ -299,11 +317,6 @@ padding-left: 10%;
   line-height: 50px;
 }
 
-.fa-check-circle {
-  color: #fe775a;
-  padding-right: 7px;
-}
-
 .column-content > hr {
   background-color: #899397;
   height: 4px;
@@ -313,6 +326,42 @@ padding-left: 10%;
   margin-left: auto;
   margin-right: auto;
 }
-/* /contenitore centrale tre colonne */
+/* /contenitore tre colonne */
+/* /corpo centrale sezione top */
 
-/* /corpo centrale */
+/* corpo centrale sezione middle */
+main.middle {
+  background: linear-gradient(to right, #00a6bb 0, #00baa7 100%);
+  text-align: center;
+  color:#fff;
+  padding-top: 40px;
+}
+
+.middle-content:first-child h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.middle-content:first-child p {
+  font-size: 16px;
+  padding: 40px 0 40px 0;
+  line-height: 2;
+}
+
+.middle-content:nth-child(2) > .box {
+  height: 180px;
+  width: 300px;
+  padding: 10px 0;
+}
+
+.middle-content:nth-child(2) > .box > h3 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.middle-content:nth-child(2) > .box > h3 i {
+  font-size: 15px;
+  vertical-align: middle;
+}
+/* corpo centrale sezione middle */
