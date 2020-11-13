@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Hubspot</title>
@@ -15,9 +16,7 @@
         <div class="container clearfix">
           <nav class="navbar float-l">
             <ul>
-              <li>
-                 <img src="img/world.png" alt="">English &or;
-              </li>
+              <li><img src="img/world.png" alt="">English &or;</li>
               <li>Contact Us</li>
             </ul>
           </nav>
@@ -52,7 +51,7 @@
       </div>
       <!-- /sezione centrale con logo -->
 
-      <!-- sezione in basso con immagine sfondo -->
+      <!-- sezione jumbotron -->
       <div class="section three">
         <div class="container">
           <div class="jumbotron">
@@ -64,10 +63,10 @@
           </div>
         </div>
       </div>
-      <!-- /sezione in basso con immagine sfondo -->
+      <!-- /sezione jumbotron -->
     </header>
 
-    <div class="intersection-lightblue min-width"></div>
+    <!-- <div class="intersection-lightblue min-width"></div> -->
 
     <!-- corpo centrale -->
     <main class="min-width" >
@@ -81,19 +80,19 @@
 
       <!-- contenitore centrale free Hubspot -->
       <div class="central-content clearfix container">
-        <div class="book-image float-l">
+        <div class="book-image float-l box-shadow">
           <div class="libretto"><img src="img/libretto.png" alt=""></div>
           <div class="button b-central">Learn More</div>
         </div>
 
-        <div class="free-hubspot float-l">
+        <div class="free-hubspot float-l box-shadow">
           <h3>Free HubSpot CRM</h3>
           <p>Everything you need to organize, track, and build better relationship with leads and costumer. Yes, it's 100% free. Forever</p>
           <p class="popolar">POPOLAR FEATURE</p>
           <ul>
-            <li><img src="img/check-orange.png" alt="">Contact Insight</li>
-            <li><img src="img/check-orange.png" alt="">Deals</li>
-            <li><img src="img/check-orange.png" alt="">Task</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i>Contact Insight</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i>Deals</li>
+            <li><i class="fa fa-check-circle" aria-hidden="true"></i>Task</li>
           </ul>
         </div>
       </div>
@@ -103,46 +102,61 @@
       <div class="central-content clearfix container">
         <!-- colonna 1 -->
         <div class="column uno float-l">
-          <img src="img/marketing-hub.png" alt="">
-          <h3>Marketing Hub</h3>
-          <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale</p>
-          <h3 class="">POPOLAR FEATURE</h3>
-          <ul>
-            <li><img src="img/check-orange.png" alt="">Lead Generation</li>
-            <li><img src="img/check-orange.png" alt="">Marketing Automation</li>
-            <li><img src="img/check-orange.png" alt="">Analytics</li>
-          </ul>
-          <div class="button b-central">Learn More</div>
+          <div class="column-content box-shadow">
+            <div class=img-container>
+              <img src="img/marketing-hub.png" alt="">
+            </div>
+            <h3>Marketing Hub</h3>
+            <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            <hr class="pf">
+            <h3>POPOLAR FEATURE</h3>
+            <ul>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lead Generation</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Marketing Automation</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Analytics</li>
+            </ul>
+            <div class="button b-central">Learn More</div>
+          </div>
         </div>
         <!-- /colonna 1 -->
 
         <!-- colonna 2 -->
         <div class="column due float-l">
-          <img src="img/sales-hub.png" alt="">
-          <h3>Sales Hub</h3>
-          <p>Time-saving sales software that helps you get deeper insight into prospect, automate the tasks you hate, and close more deals faster</p>
-          <h3 class="">POPOLAR FEATURE</h3>
-          <ul>
-            <li><img src="img/check-orange.png" alt="">Email Tracking</li>
-            <li><img src="img/check-orange.png" alt="">Meeting Scheduling</li>
-            <li><img src="img/check-orange.png" alt="">Email Automation</li>
-          </ul>
-          <div class="button b-central">Learn More</div>
+          <div class="column-content box-shadow">
+            <div class=img-container>
+              <img src="img/sales-hub.png" alt="">
+            </div>
+            <h3>Sales Hub</h3>
+            <p>Time-saving sales software that helps you get deeper insight into prospect, automate the tasks you hate, and close more deals faster.</p>
+            <hr class="pf">
+            <h3>POPOLAR FEATURE</h3>
+            <ul>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Email Tracking</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Meeting Scheduling</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Email Automation</li>
+            </ul>
+            <div class="button b-central">Learn More</div>
+          </div>
         </div>
         <!-- /colonna 2 -->
 
         <!-- colonna 3 -->
         <div class="column tre float-l">
-          <img src="img/service-hub.png" alt="">
-          <h3>Service Hub</h3>
-          <p>Customer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business</p>
-          <h3 class="">POPOLAR FEATURE</h3>
-          <ul>
-            <li><img src="img/check-orange.png" alt="">Tickets</li>
-            <li><img src="img/check-orange.png" alt="">Customer Feedback</li>
-            <li><img src="img/check-orange.png" alt="">Knowledge Base</li>
-          </ul>
-          <div class="button b-central">Learn More</div>
+          <div class="column-content box-shadow">
+            <div class=img-container>
+              <img src="img/service-hub.png" alt="">
+            </div>
+            <h3>Service Hub</h3>
+            <p>Customer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business.</p>
+            <hr class="pf">
+            <h3>POPOLAR FEATURE</h3>
+            <ul>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Tickets</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Customer Feedback</li>
+              <li><i class="fa fa-check-circle" aria-hidden="true"></i>Knowledge Base</li>
+            </ul>
+            <div class="button b-central">Learn More</div>
+          </div>
         </div>
         <!-- /colonna 3 -->
 
