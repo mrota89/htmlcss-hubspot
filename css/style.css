@@ -418,6 +418,7 @@ main.middle {
 
 .final-claim {
   position: relative;
+  padding-top: 50px;
 }
 
 .final-claim .str-hbspt-tdy {
@@ -452,7 +453,7 @@ main.middle {
   width: 25%;
   position: absolute;
   right: 0;
-  top: 35px;
+  top: 100px;
 }
 
 .woman-image img {
