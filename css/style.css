@@ -422,7 +422,6 @@ main.middle {
 }
 
 .final-claim .str-hbspt-tdy {
-  height: 300px;
   width: 50%;
   background-color: #fff;
   padding-right: 5%;
@@ -450,9 +449,9 @@ main.middle {
 
 .woman-image {
   height: 300px;
-  width: 25%;
+  width: 27%;
   position: absolute;
-  right: 0;
+  right: 25px;
   top: 100px;
 }
 
@@ -460,3 +459,77 @@ main.middle {
   width: 100%;
 }
 /* corpo centrale sezione bottom */
+
+/* footer */
+footer {
+  background-color: #32495b;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+footer .nav-foot {
+  padding-top: 60px;
+}
+
+footer .nav-foot > div {
+  padding-right: 100px;
+  color: #fff;
+}
+
+footer .nav-foot > div h4 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+footer .nav-foot > div ul li {
+  list-style: none;
+  padding: 10px 0;
+  color: #dadee0;
+}
+
+.button-footer {
+  height: 40px;
+  line-height: 40px;
+  min-width: 50px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  border: solid 2px white;
+  background-color: #dadee0;
+  color: #32495b;
+}
+
+.social-icon {
+  text-align: center;
+}
+
+footer .nav-foot > div ul li span {
+  padding: 0 10px;
+}
+
+.lenguage {
+  text-align: center;
+  padding: 50px 0 20px 0;
+  border-bottom: 2px solid #dadee0;
+}
+
+.lenguage p {
+  display: inline-block;
+  padding: 0 12px;
+  color: #dadee0;
+}
+
+.credits {
+  padding-top: 40px;
+}
+
+.credits .copyright p {
+  color: #dadee0;
+  font-weight: bold;
+}
+
+.legal p {
+  display: inline-block;
+  color: #dadee0;
+  padding-right: 10px;
+}
