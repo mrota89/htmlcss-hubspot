@@ -5,100 +5,99 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Hubspot</title>
   </head>
   <body>
 
-    <header class="min-width">
-      <!-- sezione in alto-->
-      <div class="section one ">
+    <header class= min-width>
+      <!-- sezione top-->
+      <section class="one">
         <div class="container clearfix">
-          <nav class="navbar float-l">
+          <nav class="navbar float-l font-normal">
             <ul>
-              <li><img src="img/world.png" alt="">English &or;</li>
+              <li class="english">
+                <i class="fa fa-globe" aria-hidden="true"></i>English <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </li>
+              <li>|</li>
               <li>Contact Us</li>
             </ul>
           </nav>
 
           <nav class="navbar float-r">
             <ul>
-              <li><img src="img/search-icon.png" alt=""></li>
+              <li><i class="fa fa-search" aria-hidden="true"></i></li>
               <li><div class="button button-log-in">Log in</div></li>
               <li><div class="button button-get">GetHubspotfree</div></li>
             </ul>
           </nav>
         </div>
-      </div>
-      <!-- sezione in alto-->
+      </section>
+      <!-- sezione top-->
 
       <!-- sezione centrale con logo -->
-      <div class="section two">
+      <section class="two font-normal">
         <div class="container clearfix">
-            <div class="logo">
-              <img src="img/logo.svg" alt="">
-            </div>
-            <nav class="navbar float-r">
-              <ul>
-                <li>Software &or;</li>
-                <li>Pricing</li>
-                <li>Resources &or;</li>
-                <li>Partners &or;</li>
-                <li>About &or;</li>
-              </ul>
-            </nav>
+          <img src="img/logo.svg" alt="">
+          <nav class="navbar float-r">
+            <ul>
+              <li>Software<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+              <li>Pricing</li>
+              <li>Resources<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+              <li>Partners<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+              <li>About<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            </ul>
+          </nav>
         </div>
-      </div>
+      </section>
       <!-- /sezione centrale con logo -->
 
       <!-- sezione jumbotron -->
-      <div class="section three">
+      <section class="three">
         <div class="container">
           <div class="jumbotron">
-            <h1>There's a better way to grow</h1>
-            <p>Marketing, sales and service software that helps your business grow without compromise. Because "good for business" should also mean "good for the costumer".</p>
+            <h1 class="font-big">There's a better way to grow.</h1>
+            <p class=font-normal>Marketing, sales and service software that helps your business grow without compromise. Because "good for business" should also mean "good for the costumer".</p>
             <div class="button button-get button-big">GetHubspotfree</div>
-            <p>Get started with FREE tools, and upgrade as you grow.</p>
+            <p class="font-small">Get started with FREE tools, and upgrade as you grow.</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- /sezione jumbotron -->
     </header>
 
-    <!-- <div class="intersection-lightblue min-width"></div> -->
-
-    <!-- sezione top corpo centrale -->
+    <!-- sezione top main -->
     <main class="top min-width" >
       <!-- slogan sotto testata -->
-      <div class="powerful-alone container">
+      <section class="powerful-alone container">
         <img src="img/cubo.png" alt="">
-        <h2>Powerful Alone. Better Together</h2>
-        <p>HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.</p>
-      </div>
+        <h2 class="font-big">Powerful Alone. Better Together</h2>
+        <p class="font-normal">HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.</p>
+      </section>
       <!-- /slogan sotto testata -->
 
       <!-- contenitore top free Hubspot -->
-      <div class="top-content clearfix container">
+      <section class="top-content clearfix container">
         <div class="book-image float-l box-shadow">
           <div class="libretto"><img src="img/libretto.png" alt=""></div>
-          <div class="button b-central">Learn More</div>
+          <div class="button button-learn">Learn More</div>
         </div>
 
-        <div class="free-hubspot float-l box-shadow">
+        <div class="free-hubspot float-r box-shadow">
           <h3>Free HubSpot CRM</h3>
-          <p>Everything you need to organize, track, and build better relationship with leads and costumer. Yes, it's 100% free. Forever</p>
-          <p class="popolar">POPOLAR FEATURE</p>
-          <ul>
+          <p class="font-normal">Everything you need to organize, track, and build better relationship with leads and costumer. Yes, it's 100% free. Forever</p>
+          <p class="popolar font-small">POPOLAR FEATURE</p>
+          <ul class="font-normal">
             <li><i class="fa fa-check-circle" aria-hidden="true"></i>Contact Insight</li>
             <li><i class="fa fa-check-circle" aria-hidden="true"></i>Deals</li>
             <li><i class="fa fa-check-circle" aria-hidden="true"></i>Task</li>
           </ul>
         </div>
-      </div>
+      </section>
       <!-- /contenitore top free Hubspot -->
 
       <!-- contenitore top tre colonne -->
-      <div class="top-content clearfix container">
+      <section class="top-content clearfix container">
         <!-- colonna 1 -->
         <div class="column uno float-l">
           <div class="column-content box-shadow">
@@ -106,15 +105,15 @@
               <img src="img/marketing-hub.png" alt="">
             </div>
             <h3>Marketing Hub</h3>
-            <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            <p class="font-normal">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
             <hr class="pf">
-            <h3>POPOLAR FEATURE</h3>
-            <ul>
+            <p class=font-normal>POPOLAR FEATURE</p>
+            <ul class="font-normal">
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lead Generation</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Marketing Automation</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Analytics</li>
             </ul>
-            <div class="button b-central">Learn More</div>
+            <div class="button button-learn">Learn More</div>
           </div>
         </div>
         <!-- /colonna 1 -->
@@ -126,15 +125,15 @@
               <img src="img/sales-hub.png" alt="">
             </div>
             <h3>Sales Hub</h3>
-            <p>Time-saving sales software that helps you get deeper insight into prospect, automate the tasks you hate, and close more deals faster.</p>
+            <p class="font-normal">Time-saving sales software that helps you get deeper insight into prospect, automate the tasks you hate, and close more deals faster.</p>
             <hr class="pf">
-            <h3>POPOLAR FEATURE</h3>
-            <ul>
+            <p class=font-normal>POPOLAR FEATURE</p>
+            <ul class="font-normal">
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Email Tracking</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Meeting Scheduling</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Email Automation</li>
             </ul>
-            <div class="button b-central">Learn More</div>
+            <div class="button button-learn">Learn More</div>
           </div>
         </div>
         <!-- /colonna 2 -->
@@ -146,149 +145,147 @@
               <img src="img/service-hub.png" alt="">
             </div>
             <h3>Service Hub</h3>
-            <p>Customer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business.</p>
+            <p class="font-normal">Customer service software to help you connect with costumers, exceed expectations, and turn them into promoters that grow your business.</p>
             <hr class="pf">
-            <h3>POPOLAR FEATURE</h3>
-            <ul>
+            <p class=font-normal>POPOLAR FEATURE</p>
+            <ul class="font-normal">
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Tickets</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Customer Feedback</li>
               <li><i class="fa fa-check-circle" aria-hidden="true"></i>Knowledge Base</li>
             </ul>
-            <div class="button b-central">Learn More</div>
+            <div class="button button-learn">Learn More</div>
           </div>
         </div>
         <!-- /colonna 3 -->
-      </div>
+      </section>
       <!-- /contenitore top tre colonne -->
     </main>
-    <!-- /sezione top corpo centrale -->
+    <!-- /sezione top main -->
 
-    <!-- sezione middle corpo centrale -->
+    <!-- sezione middle main -->
     <main class="middle min-width" >
-      <div class="middle-content container">
+      <section class="middle-content container">
         <h2>Learn and grow with award-winning support and a thriving community behind you.</h2>
-        <p>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
-      </div>
+        <p class="font-normal">You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
+      </section>
 
-      <div class="middle-content clearfix container">
+      <section class="middle-content clearfix container">
         <div class="box float-l">
           <img src="img/handshake.svg" alt="">
-          <h3>150 <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>HubSpot user groups</p>
+          <h3 class="font-big">150 <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">HubSpot user groups</p>
         </div>
 
         <div class="box float-l box-brd-l-r">
           <img src="img/hubspot-blogs.svg" alt="">
-          <h3>4.5M <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>monthly visit</p>
+          <h3 class="font-big">4.5M <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">monthly visit</p>
         </div>
 
         <div class="box float-l box-brd-r">
           <img src="img/hubspot-academy.svg" alt="">
-          <h3>155K <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>certified professionals</p>
+          <h3 class="font-big">155K <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">certified professionals</p>
         </div>
 
         <div class="box float-l">
           <img src="img/inbound.svg" alt="">
-          <h3>21K <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>registered attendees</p>
+          <h3 class="font-big">21K <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">registered attendees</p>
         </div>
 
         <div class="box float-l box-brd-top">
           <img src="img/hubspot-connect.svg" alt="">
-          <h3>200 <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>integrations</p>
+          <h3 class="font-big">200 <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">integrations</p>
         </div>
 
         <div class="box float-l box-brd-l-r box-brd-top">
           <img src="img/globe.svg" alt="">
-          <h3>6 <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>languages</p>
+          <h3 class="font-big">6 <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">languages</p>
         </div>
 
         <div class="box float-l box-brd-top box-brd-r">
           <img src="img/chat-text.svg" alt="">
-          <h3>2.6M <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>social follower</p>
+          <h3 class="font-big">2.6M <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">social follower</p>
         </div>
 
         <div class="box float-l box-brd-top">
           <img src="img/growth-hub.svg" alt="">
-          <h3>5K <i class="fa fa-plus" aria-hidden="true"></i></h3>
-          <p>profiles and counting</p>
+          <h3 class="font-big">5K <i class="fa fa-plus" aria-hidden="true"></i></h3>
+          <p class="font-small">profiles and counting</p>
         </div>
-      </div>
+      </section>
     </main>
-    <!-- sezione middle corpo centrale -->
+    <!-- sezione middle main -->
 
-    <!-- sezione bottom corpo centrale -->
+    <!-- sezione bottom main -->
     <main class="bottom min-width">
-      <div class="bottom-content container clearfix">
+      <!-- numero clienti e partner -->
+      <section class="csm-and-pts clearfix container">
+        <div class="customers float-l">
+          <h2 class=font-big>64,500</h2>
+          <p class=font-normal>costumers in over <strong>100</strong> countries growing their businesses with HubSpot</p>
+        </div>
 
-        <!-- numero clienti e partner -->
-        <div class="csm-and-pts clearfix">
-          <div class="customers float-l">
-            <h2>64,500</h2>
-            <p>costumers in over <strong>100</strong> countries growing their businesses with HubSpot</p>
+        <div class="partners float-r clearfix">
+          <div class="box-img-pts float-l">
+            <img src="img/wwf.webp" alt="">
           </div>
 
-          <div class="partners float-r clearfix">
-            <div class="box-img-pts float-l">
-              <img src="img/wwf.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img src="img/trello.webp" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img src="img/trello.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img src="img/g2.webp" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img src="img/g2.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img src="img/survey.svg" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img src="img/survey.svg" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img src="img/subaru.webp" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img src="img/subaru.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img class="six"src="img/soundcloud.webp" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img class="six"src="img/soundcloud.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img src="img/classpass.webp" alt="">
+          </div>
 
-            <div class="box-img-pts float-l">
-              <img src="img/classpass.webp" alt="">
-            </div>
-
-            <div class="box-img-pts float-l">
-              <img class="eight"src="img/vmware.webp" alt="">
-            </div>
+          <div class="box-img-pts float-l">
+            <img class="eight"src="img/vmware.webp" alt="">
           </div>
         </div>
-        <!-- /numero clienti e partner -->
+      </section>
+      <!-- /numero clienti e partner -->
 
-        <!-- claim di chiusura -->
-        <div class="final-claim clearfix">
-          <div class="str-hbspt-tdy float-l">
-            <h2>Start Growing With HubSpot Today</h2>
-            <p>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</p>
-            <div class="button button-get">GetHubspotFree</div>
-            <p>Get started with FREE tools, or get more with our premium software.</p>
-          </div>
-
-          <div class="woman-image">
-            <img src="img/woman.webp" alt="">
-          </div>
+      <!-- claim di chiusura -->
+      <section class="final-claim clearfix container">
+        <div class="str-hbspt-tdy float-l">
+          <h2 class=font-big>Start Growing With HubSpot Today</h2>
+          <p class=font-normal>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</p>
+          <div class="button button-get button-big">GetHubspotFree</div>
+          <p class=font-small>Get started with FREE tools, or get more with our premium software.</p>
         </div>
-        <!-- /claim di chiusura  -->
-      </div>
+
+        <div class="woman-image">
+          <img src="img/woman.webp" alt="">
+        </div>
+      </section>
+      <!-- /claim di chiusura  -->
     </main>
-    <!-- /sezione bottom corpo centrale -->
+    <!-- /sezione bottom main -->
 
     <footer class="min-width">
-      <nav class="nav-foot clearfix container">
+      <!-- link di fondo pagina -->
+      <nav class="nav-foot clearfix container font-normal">
         <div class="increase float-l">
           <h4>Increase Your Traffic</h4>
           <ul>
@@ -301,7 +298,7 @@
         </div>
 
         <div class="connect float-l">
-          <h4>Connect With Leads</h4>
+          <h4 class="font-normal">Connect With Leads</h4>
           <ul>
             <li>Find New Prospect</li>
             <li>Email Tracking</li>
@@ -312,7 +309,7 @@
         </div>
 
         <div class="close float-l">
-          <h4>Close and Menage Leads</h4>
+          <h4 class="font-normal">Close and Menage Leads</h4>
           <ul>
             <li>Document Tracking Tool</li>
             <li>Meeting Schedule Tool</li>
@@ -323,14 +320,16 @@
         </div>
 
         <div class="support float-l">
-          <h4>Support and Tools</h4>
+          <h4 class="font-normal">Support and Tools</h4>
           <ul>
             <li>HubSpot Partners</li>
             <li>Join a Local User Group</li>
             <li>Get a Free Website Report</li>
             <li>HubSpot Templates</li>
             <li>Free Tools & Generators</li>
-            <li><div class="button-footer">Contact HubSpot Support</div></li>
+            <li>
+              <div class="button button-get">Contact HubSpot Support</div>
+            </li>
             <li>
               <div class="social-icon">
                 <span class="fb">
@@ -358,7 +357,9 @@
           </ul>
         </div>
       </nav>
-      <section class="lenguage clearfix container">
+      <!-- / link di fondo pagina -->
+
+      <section class="lenguage clearfix container font-normal">
         <p>English</p>
         <p>Deutsch</p>
         <p>日本語</p>
@@ -367,7 +368,7 @@
         <p>Français</p>
       </section>
 
-      <section class="credits clearfix container">
+      <section class="credits clearfix container font-normal">
         <div class="copyright float-l">
           <div class="logo-white">
             <img src="img/Wordmark-White.svg" alt="">
@@ -375,7 +376,7 @@
           <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019 HubSpot, Inc.</p>
         </div>
 
-        <div class="legal float-r">
+        <div class="legal float-r font-normal">
           <p>Legal Stuff</p>
           <p>Privacy Policy</p>
         </div>
