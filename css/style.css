@@ -52,7 +52,7 @@ a:hover {
   border-radius: 5px;
   display: inline-block;
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 .button-get {
   background-color: #fe775a;
@@ -61,14 +61,15 @@ a:hover {
 .button-learn {
   background-color: #fe775a;
   color: #fff;
-  font-size: 15px;
-  width: 120px;
+  width: 140px;
+  height: 60px;
+  line-height: 60px;
 }
 .button-big {
   height: 50px;
   line-height: 50px;
   width: 200px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .fa-check-circle {
  color: #fe775a;
@@ -90,7 +91,7 @@ a:hover {
 }
 /*/ classi utility e common*/
 
-/* sezione top*/
+/* sezione top header*/
 header section {
   width: 100%;
 }
@@ -130,7 +131,7 @@ section.one nav:first-of-type > ul > li:nth-child(2) {
   border-left: black 2px solid;
   padding-left: 15px;
 }
-/* /sezione top*/
+/* /sezione top header*/
 
 /* logo hubspot */
 section.two {
@@ -142,7 +143,7 @@ section.two img {
 }
 /* /logo hubspot */
 
-/* sezione jumbotron */
+/* sezione jumbotron header*/
 section.three {
   background-color: #fff4ef;
   background-image: url("../img/jumbotron.png");
@@ -174,7 +175,7 @@ section.three .container .jumbotron p {
   border-top: solid #33475b 3px;
   border-bottom: solid #33475b 3px;
 }
-/* /sezione jumbotron */
+/* /sezione jumbotron header*/
 
 main > section {
   width: 100%;
@@ -301,7 +302,7 @@ padding-right: 10px;
 }
 /* /contenitore tre colonne */
 
-/* corpo centrale sezione middle */
+/* main sezione middle */
 section.middle {
   background: linear-gradient(to right, #00a6bb 0, #00baa7 100%);
   text-align: center;
@@ -326,14 +327,14 @@ section.middle {
   padding: 20px 0;
 }
 .row .box h3 span {
-  font-size: 25px;
+  font-size: 0.5em;
   vertical-align: middle;
 }
-/* /corpo centrale sezione middle */
+/* /main sezione middle */
 
-/* corpo centrale sezione bottom */
+/* main sezione bottom */
 .csm-and-pts {
-  padding-top: 80px;
+  padding-top: 50px;
   text-align: center;
 }
 .csm-and-pts > div h2 {
@@ -349,7 +350,7 @@ section.middle {
   width: 35%;
 }
 .csm-and-pts .row-partners {
-  padding-top: 30px;
+  padding-top: 5px;
   width: 65%;
 }
 .csm-and-pts .row-partners div {
@@ -357,71 +358,65 @@ section.middle {
   height: 80px;
   padding: 20px;
   text-align: center;
-  line-height: 100px;
+  line-height: 80px;
 }
 .csm-and-pts .row-partners div img {
-  width: 70%;
-}
-.csm-and-pts .row-partners div .six,.eight {
-  padding-bottom: 10px;
+  width: 100%;
+  vertical-align: middle;
 }
 .final-claim {
   position: relative;
-  padding-top: 50px;
+  padding-top: 25px;
 }
-.final-claim .str-hbspt-tdy {
+.final-claim .start-growing {
   width: 60%;
   background-color: #fff;
-  padding-right: 5%;
-  padding-left: 1%;
-  padding-top: 3%;
+  padding: 3% 5% 1% 0;
 }
-.final-claim .str-hbspt-tdy h2 {
+.final-claim .start-growing h2 {
   padding-top: 40px;
 }
-.final-claim .str-hbspt-tdy > p {
-  padding: 30px 170px 30px 0;
+.final-claim .start-growing > p {
+  padding: 50px 170px 50px 0;
 }
 .woman-image {
-  height: 300px;
-  width: 27%;
+  width: 30%;
   position: absolute;
-  right: 10px;
-  top: 100px;
+  right: 0;
+  top: 50px;
 }
 .woman-image img {
   width: 100%;
 }
-/* corpo centrale sezione bottom */
+/* main sezione bottom */
 
 footer {
   background-color: #32495b;
-  margin-top: 60px;
   padding-bottom: 30px;
-  font-weight: bold;
+  color: #dadee0;
 }
 footer .nav-foot {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 footer .nav-foot > div {
   width: 25%;
-  color: #fff;
 }
 footer .nav-foot > div h4 {
   padding-bottom: 15px;
+  color: #fff;
 }
 footer .nav-foot > div ul li {
   list-style: none;
   padding: 10px 0;
-  color: #dadee0;
 }
 footer .nav-foot > div:last-child > ul > li:nth-child(6) > div {
   border: solid 2px white;
   background-color: #dadee0;
   color: #32495b;
+  font-size: 12px;
 }
 footer .nav-foot > div ul li span {
-  padding: 0 14px;
+  padding-right: 25px;
 }
 .lenguage {
   text-align: center;
@@ -429,16 +424,15 @@ footer .nav-foot > div ul li span {
   border-bottom: 2px solid #dadee0;
 }
 .lenguage p {
-  display: inline-block;
   padding: 0 12px;
-  color: #dadee0;
+  display: inline-block;
 }
 .credits {
   padding-top: 40px;
   color: #fff;
 }
 .legal p {
+  padding-right: 10px;
   display: inline-block;
   color: #dadee0;
-  padding-right: 10px;
 }
