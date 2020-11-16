@@ -5,48 +5,45 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
 h3 {
-  font-weight: 18px;
+  font-size: 18px;
 }
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
 .min-width {
   min-width: 1200px;
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-
 .float-l {
   float: left;
 }
-
 .float-r {
   float: right;
 }
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-
 .font-big {
   font-size: 40px;
 }
-
 .font-normal {
   font-size: 14px;
   line-height: 2;
 }
-
 .font-small {
   font-size: 12px;
   line-height: 1.5;
 }
-
 .button {
   height: 40px;
   line-height: 40px;
@@ -57,45 +54,37 @@ h3 {
   text-align: center;
   font-size: 15px;
 }
-
 .button-get {
   background-color: #fe775a;
   color: #fff;
 }
-
 .button-learn {
   background-color: #fe775a;
   color: #fff;
   font-size: 15px;
   width: 120px;
 }
-
 .button-big {
   height: 50px;
   line-height: 50px;
   width: 200px;
   font-size: 15px;
 }
-
 .fa-check-circle {
  color: #fe775a;
  padding-right: 7px;
 }
-
 .box-shadow {
   box-shadow: 1px 1px 1px lightgrey;
   border-radius: 2px;
 }
-
 .box-brd-l-r {
   border-left: 2px solid white;
   border-right: 2px solid white;
 }
-
 .box-brd-r {
   border-right: 2px solid white;
 }
-
 .box-brd-top {
   border-top: 2px solid white;
 }
@@ -105,44 +94,41 @@ h3 {
 header section {
   width: 100%;
 }
-
 header section.one {
   background-color: #f4f9fd;
-  line-height: 80px;
-  height: 80px;
+  border-bottom: 2px solid #7e8d98;
 }
-
-header section.one ul li i {
-  width: 20px;
-  height: 15px;
-  padding-right: 5px;
-}
-
 header section .fa-search {
   color: #03a5bd;
 }
-
 header section .fa.fa-angle-down {
   font-size: 20px;
   padding: 0 10px;
   vertical-align: top;
 }
-
 header section .button-log-in {
   background-color: #fff;
   border:solid #fe775a 0.5px;
   color: #fe775a;
 }
-
+header section nav > ul {
+  line-height: 80px;
+  height: 80px;
+}
 header section nav > ul li {
 display: inline-block;
 line-height: 18px;
 height: 18px;
 padding-right: 20px;
 }
-
+header section.one ul li i {
+  width: 20px;
+  height: 15px;
+  padding-right: 5px;
+}
 section.one nav:first-of-type > ul > li:nth-child(2) {
-  line-height: 80px;
+  border-left: black 2px solid;
+  padding-left: 15px;
 }
 /* /sezione top*/
 
@@ -165,22 +151,18 @@ section.three {
   background-repeat: no-repeat;
   height: 700px;
 }
-
 section.three .container .jumbotron {
   width: 45%;
   padding-top: 10%;
   padding-right: 30px;
   height: 500px;
 }
-
 section.three .container .jumbotron h1 {
   margin-bottom: 20px;
 }
-
 section.three .container .jumbotron p {
   margin: 20px 0px;
 }
-
 .three:before {
   position: absolute;
   bottom: 0;
@@ -194,30 +176,30 @@ section.three .container .jumbotron p {
 }
 /* /sezione jumbotron */
 
+main > section {
+  width: 100%;
+}
 /* slogan sotto testata */
 .powerful-alone {
   text-align: center;
   padding: 30px 200px;
 }
-
 .powerful-alone img {
   width: 200px;
   text-align: center;
 }
-
 .powerful-alone p {
   margin: 30px 0px;
 }
 /* /slogan sotto sotto testata */
 
-main.top {
+section.top {
   background-color: #f4f9fd;
 }
 /* contenitore freehubspot CRM*/
 .top-content {
   padding-bottom: 30px;
 }
-
 .top-content .book-image {
   background-color: #fff;
   padding-top: 30px;
@@ -225,48 +207,43 @@ main.top {
   width: 25%;
   height: 250px;
 }
-
 .top-content .book-image .libretto {
   width: 100px;
   height: 120px;
 }
-
 .top-content .free-hubspot {
   background-color: #fff;
   padding: 35px 200px 50px 90px;
   height: 250px;
   width: 75%
 }
-
 .top-content .free-hubspot h3 {
   text-align: left;
   font-weight: bold;
   padding-bottom: 10px;
 }
-
 .top-content .free-hubspot p {
   text-align: left;
   padding-bottom: 20px;
 }
-
 .free-hubspot .popolar {
   text-align: left;
   font-weight: bold;
+  position: relative;
 }
-
 .popolar::after {
   content:"";
   display: inline-block;
-  width: 75%;
-  border-bottom: 3px solid #899397;
-  margin: 5px 0px 5px 25px;
+  width: 90%;
+  border-bottom: 2px solid #899397;
+  position: absolute;
+  top: 8px;
+  left: 200px;
 }
-
 .free-hubspot ul {
   line-height: 50px;
   height: 50px;
 }
-
 .free-hubspot ul li {
 display: inline-block;
 padding-right: 10px;
@@ -279,95 +256,77 @@ padding-right: 10px;
   height: 800px;
   text-align: center;
 }
-
 .column.uno {
   padding-right: 40px;
 }
-
 .column.tre {
   padding-left: 40px;
 }
-
 .column-content {
   background-color: #fff;
   height: 100%;
   width: 100%;
   padding: 0 30px;
 }
-
 .column-content .img-container {
   padding: 20px 0;
   height: 150px;
 }
-
 .column-content p {
   text-align: center;
   padding: 20px;
   margin-bottom: 50px;
 }
-
 .column-content > p:nth-child(5) {
   text-align: center;
   font-weight: bold;
   padding: 20px 0;
 }
-
 .column-content ul {
   margin-top: 30px;
 }
-
 .column-content ul li {
   list-style: none;
   text-align: left;
   padding-left: 10%;
 }
-
 .column-content > div:last-child {
   margin-top: 50px;
 }
-
 .column-content > hr {
   background-color: #899397;
   height: 4px;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 50px auto;
 }
 /* /contenitore tre colonne */
 
 /* corpo centrale sezione middle */
-main.middle {
+section.middle {
   background: linear-gradient(to right, #00a6bb 0, #00baa7 100%);
   text-align: center;
   color:#fff;
   padding: 40px 0 80px 0;
 }
-
-.middle-content:first-child h2 {
+.middle-content h2 {
   font-weight: bold;
   font-size: 35px;
 }
-
-.middle-content:first-child p {
+.middle-content p {
   padding: 40px 0 40px 0;
 }
-
-.middle-content:nth-child(2) > .box {
+.row .box {
   height: 180px;
   width: 300px;
   padding: 20px 0;
   font-size: 10px;
 }
-
-.middle-content:nth-child(2) > .box > h3 {
+.row .box h3 {
   font-weight: bold;
   padding: 20px 0;
 }
-
-.middle-content:nth-child(2) > .box > h3 i {
-  font-size: 15px;
+.row .box h3 span {
+  font-size: 25px;
   vertical-align: middle;
 }
 /* /corpo centrale sezione middle */
@@ -377,48 +336,39 @@ main.middle {
   padding-top: 80px;
   text-align: center;
 }
-
 .csm-and-pts > div h2 {
   padding-bottom: 30px;
 }
-
-.csm-and-pts .partners,.customers {
+.csm-and-pts .row-partners,.customers {
   background-color: #fff;
   height: 250px;
   text-align: left;
 }
-
 .csm-and-pts .customers {
   padding: 40px 100px;
   width: 35%;
 }
-
-.csm-and-pts .partners {
+.csm-and-pts .row-partners {
   padding-top: 30px;
   width: 65%;
 }
-
-.csm-and-pts .partners div {
+.csm-and-pts .row-partners div {
   width: 180px;
-  height: 100px;
+  height: 80px;
   padding: 20px;
   text-align: center;
   line-height: 100px;
 }
-
-.csm-and-pts .partners div img {
-  width: 100%;
+.csm-and-pts .row-partners div img {
+  width: 70%;
 }
-
-.csm-and-pts .partners div .six,.eight {
+.csm-and-pts .row-partners div .six,.eight {
   padding-bottom: 10px;
 }
-
 .final-claim {
   position: relative;
   padding-top: 50px;
 }
-
 .final-claim .str-hbspt-tdy {
   width: 60%;
   background-color: #fff;
@@ -426,15 +376,12 @@ main.middle {
   padding-left: 1%;
   padding-top: 3%;
 }
-
 .final-claim .str-hbspt-tdy h2 {
   padding-top: 40px;
 }
-
 .final-claim .str-hbspt-tdy > p {
   padding: 30px 170px 30px 0;
 }
-
 .woman-image {
   height: 300px;
   width: 27%;
@@ -442,7 +389,6 @@ main.middle {
   right: 10px;
   top: 100px;
 }
-
 .woman-image img {
   width: 100%;
 }
@@ -454,53 +400,43 @@ footer {
   padding-bottom: 30px;
   font-weight: bold;
 }
-
 footer .nav-foot {
   padding-top: 60px;
 }
-
 footer .nav-foot > div {
   width: 25%;
   color: #fff;
 }
-
 footer .nav-foot > div h4 {
   padding-bottom: 15px;
 }
-
 footer .nav-foot > div ul li {
   list-style: none;
   padding: 10px 0;
   color: #dadee0;
 }
-
 footer .nav-foot > div:last-child > ul > li:nth-child(6) > div {
   border: solid 2px white;
   background-color: #dadee0;
   color: #32495b;
 }
-
 footer .nav-foot > div ul li span {
   padding: 0 14px;
 }
-
 .lenguage {
   text-align: center;
   padding: 50px 0 20px 0;
   border-bottom: 2px solid #dadee0;
 }
-
 .lenguage p {
   display: inline-block;
   padding: 0 12px;
   color: #dadee0;
 }
-
 .credits {
   padding-top: 40px;
   color: #fff;
 }
-
 .legal p {
   display: inline-block;
   color: #dadee0;
