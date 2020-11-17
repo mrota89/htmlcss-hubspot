@@ -5,15 +5,16 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-h3 {
-  font-size: 18px;
-}
 a {
   text-decoration: none;
   color: inherit;
 }
 a:hover {
   text-decoration: underline;
+  color: #03a5bd;
+}
+h3 {
+  font-size: 18px;
 }
 .min-width {
   min-width: 1200px;
@@ -44,10 +45,13 @@ a:hover {
   font-size: 12px;
   line-height: 1.5;
 }
+.bold {
+  font-weight: bold;
+}
 .button {
   height: 40px;
   line-height: 40px;
-  min-width: 50px;
+  min-width: 60px;
   padding: 0 10px;
   border-radius: 5px;
   display: inline-block;
@@ -76,8 +80,8 @@ a:hover {
  padding-right: 7px;
 }
 .box-shadow {
-  box-shadow: 1px 1px 1px lightgrey;
-  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .box-brd-l-r {
   border-left: 2px solid white;
@@ -164,7 +168,7 @@ section.three .container .jumbotron h1 {
 section.three .container .jumbotron p {
   margin: 20px 0px;
 }
-.three:before {
+section.three:before {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -180,70 +184,69 @@ section.three .container .jumbotron p {
 main > section {
   width: 100%;
 }
+
 /* slogan sotto testata */
-.powerful-alone {
+section.top {
+  background-color: #f4f9fd;
+}
+section.top .powerful-alone {
   text-align: center;
   padding: 30px 200px;
 }
-.powerful-alone img {
+section.top .powerful-alone img {
   width: 200px;
-  text-align: center;
 }
-.powerful-alone p {
+section.top .powerful-alone p {
   margin: 30px 0px;
 }
 /* /slogan sotto sotto testata */
 
-section.top {
-  background-color: #f4f9fd;
-}
 /* contenitore freehubspot CRM*/
-.top-content {
-  padding-bottom: 30px;
-}
-.top-content .book-image {
+.top-content .book-learn {
   background-color: #fff;
-  padding-top: 30px;
-  padding-left: 150px;
+  padding-left: 120px;
   width: 25%;
-  height: 250px;
+  height: 350px;
 }
-.top-content .book-image .libretto {
-  width: 100px;
-  height: 120px;
+.top-content .book-learn .libretto {
+  width: 150px;
+  padding: 75px 0 20px 0;
+}
+.top-content .book-learn .libretto img {
+  width: 100%;
+  vertical-align: middle;
 }
 .top-content .free-hubspot {
   background-color: #fff;
-  padding: 35px 200px 50px 90px;
-  height: 250px;
-  width: 75%
+  padding: 50px 200px 0px 90px;
+  width: 75%;
+  height: 350px;
 }
 .top-content .free-hubspot h3 {
   text-align: left;
   font-weight: bold;
-  padding-bottom: 10px;
+  line-height: 5;
 }
 .top-content .free-hubspot p {
   text-align: left;
-  padding-bottom: 20px;
 }
 .free-hubspot .popolar {
   text-align: left;
-  font-weight: bold;
   position: relative;
+  line-height: 4;
 }
 .popolar::after {
   content:"";
   display: inline-block;
   width: 90%;
-  border-bottom: 2px solid #899397;
+  border-bottom: 3px solid #899397;
   position: absolute;
-  top: 8px;
+  top: 27px;
   left: 200px;
 }
 .free-hubspot ul {
-  line-height: 50px;
-  height: 50px;
+  line-height: 25px;
+  height: 25px;
 }
 .free-hubspot ul li {
 display: inline-block;
@@ -254,8 +257,9 @@ padding-right: 10px;
 /* contenitore tre colonne */
 .top-content .column {
   width: 33.33%;
-  height: 800px;
+  height: 750px;
   text-align: center;
+  padding: 35px 0 35px 0;
 }
 .column.uno {
   padding-right: 40px;
@@ -274,17 +278,11 @@ padding-right: 10px;
   height: 150px;
 }
 .column-content p {
-  text-align: center;
   padding: 20px;
-  margin-bottom: 50px;
-}
-.column-content > p:nth-child(5) {
-  text-align: center;
-  font-weight: bold;
-  padding: 20px 0;
+  margin-bottom: 10px;
 }
 .column-content ul {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 .column-content ul li {
   list-style: none;
@@ -296,9 +294,9 @@ padding-right: 10px;
 }
 .column-content > hr {
   background-color: #899397;
-  height: 4px;
+  height: 3px;
   display: block;
-  margin: 20px auto 50px auto;
+  margin: 40px auto 20px auto;
 }
 /* /contenitore tre colonne */
 
@@ -310,7 +308,6 @@ section.middle {
   padding: 40px 0 80px 0;
 }
 .middle-content h2 {
-  font-weight: bold;
   font-size: 35px;
 }
 .middle-content p {
@@ -323,7 +320,6 @@ section.middle {
   font-size: 10px;
 }
 .row .box h3 {
-  font-weight: bold;
   padding: 20px 0;
 }
 .row .box h3 span {
@@ -357,7 +353,6 @@ section.middle {
   width: 180px;
   height: 80px;
   padding: 20px;
-  text-align: center;
   line-height: 80px;
 }
 .csm-and-pts .row-partners div img {
@@ -380,15 +375,15 @@ section.middle {
   padding: 50px 170px 50px 0;
 }
 .woman-image {
-  width: 30%;
+  width: 27%;
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 70px;
 }
 .woman-image img {
   width: 100%;
 }
-/* main sezione bottom */
+/* /main sezione bottom */
 
 footer {
   background-color: #32495b;
@@ -409,7 +404,7 @@ footer .nav-foot > div ul li {
   list-style: none;
   padding: 10px 0;
 }
-footer .nav-foot > div:last-child > ul > li:nth-child(6) > div {
+footer .nav-foot .button-blue {
   border: solid 2px white;
   background-color: #dadee0;
   color: #32495b;
