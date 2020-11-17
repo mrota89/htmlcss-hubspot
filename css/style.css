@@ -346,18 +346,14 @@ section.middle {
   width: 35%;
 }
 .csm-and-pts .row-partners {
-  padding-top: 5px;
-  width: 65%;
+  padding-top: 35px;
+  width: 60%;
 }
-.csm-and-pts .row-partners div {
-  width: 180px;
-  height: 80px;
-  padding: 20px;
-  line-height: 80px;
-}
-.csm-and-pts .row-partners div img {
-  width: 100%;
+
+.csm-and-pts .row-partners img {
+  width: 18%;
   vertical-align: middle;
+  margin: 5px 10px;
 }
 .final-claim {
   position: relative;
